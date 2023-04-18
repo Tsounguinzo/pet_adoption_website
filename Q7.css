@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+#current-date-time{
+    position: absolute;
+    right: 1rem;
+    border: 5px solid mintcream;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.sidebar {
+    background-color: #343a40;
+    width: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    text-decoration:none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #0ebbff;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+#home {
+    flex-grow: 1;
+    background-color: #0ebbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    padding: 1rem;
+}
+
+.text-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+#current-date-time {
+    text-align: right;
+}
+.view-pets-btn {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.view-pets-btn:hover {
+    background-color: white;
+    color: #0ebbff;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #953f09;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.spacial{
+    width: 1150px;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.privacy-link {
+    color: white;
+    text-decoration: none;
+}
+
+.privacy-link:hover {
+    text-decoration: underline;
+}
+
+.pets-container {
+    display: grid;
+    grid-template-columns: repeat(4, 268px);
+    grid-template-rows: repeat(2, 268px);
+    grid-gap: 25px;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.pets {
+    border: 1px solid #dd6b9a;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.description {
+    text-align: center;
+}
+
+.pet-image {
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.interested-btn {
+    display: inline-block;
+    border-radius: 4px;
+    border: 2px solid #dd6b9a;
+    background-color: #dd6b9a;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.description p {
+    margin: 0;
+}
+
+
+.form-text {
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #6c757d;
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+.spacial label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.spacial input[type="text"],
+.spacial input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.spacial input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.spacial input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
